@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+h1{
+    font-family: 'Gotu', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1200px;
+    background-color: #cdc5b4;
+    color: #213849;
+}
+header{
+    background: url(./fotos/foto1.jpg);
+    background-size: 1366px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 750px;
+}
+nav{
+    font-family: 'Gotu', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    padding: 50px 70px 0 0;
+}
+nav > a{
+    color: #213849;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+nav > h1{
+    font-weight: 100;
+    text-align: left;
+    margin-left: 20px;
+}
+.waveee{
+    position: absolute;
+    bottom: -130px;
+    width: 100%;
+    padding: 0;
+}
+.us{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+    padding: 50px;
+}
+.us div{
+    width: 100%;
+}
+.us div a img{
+    margin-left: 60px;
+    width: 250px;
+    height: 400px;
+    border-radius: 150px;
+}
+.wave2{
+    position: relative;
+    bottom: -10px;
+    width: 100%;
+}
+.favs{
+    font-family: 'Gotu', sans-serif;
+    background-color: #85756E;
+}
+.fav{
+    background-color: #85756E;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+}
+.fav div{
+    width: 100%;
+}
+.fav div a img{
+    margin-left: 95px;
+    width: 200px;
+    height: 350px;
+    border-radius: 44px;
+}
+.favs h2{
+    font-size: 50px;
+    font-weight: 100;
+    color: #cdc5b4;
+    margin-left: 20px;
+}
+.fav div h4{
+    margin-left: 85px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #cdc5b4;
+}
+footer{
+    background-image: url(./fotos/footer2.jpg);
+    background-size: 1366px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        90deg, 
+        rgba(109,61,20,0.55) 0%, 
+        rgba(109,61,20,0.55) 35%, 
+        rgba(109,61,20,0.5466561624649859) 
+        ),url(./fotos/footer2.jpg);
+        color: #cdc5b4;
+}
+.redes{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+footer h3{
+    margin-left: 150px;
+    font-family:'Gotu', sans-serif;
+    font-size: 25px;
+}
+footer h4{
+    font-family:'Gotu', sans-serif;
+    font-size: 15px;
+}
+footer h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+.con{
+    margin-left: 1000px;
+    gap: 20px;
+}
